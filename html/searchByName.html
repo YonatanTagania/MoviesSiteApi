@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<img id="bgImage" src="../images/movies-Background.jpg" alt="bgImg">
+<body>
+    <header>
+        <nav>
+            <ul id="navBar">
+
+                <a href="https://www.tech-career.org/" target="_blank"><img src="../images/tech-carrer-logo.jpeg" alt="tclogo" width="120px" height="80px"></a>
+                <li class="navBarItems"><a href="../index.html">home Page</a></li>
+                <li class="navBarItems"><a href="./MoviesPage.html">movies Area</a></li>
+                <li class="navBarItems"><a href="./moviesTable.html">movies Table</a></li>
+                <li class="navBarItems"><a href="#">search by name</a></li>
+                <li class="navBarItems"><a href="./addAndRemove.html">add/edit movie</a></li>
+                <img src="../images/indi-logo.jpeg" alt="indiLogo">
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="logoDiv">
+            <img src="../images/siteLogo.png" width="150px" height="150px" alt="logoImg">
+        </div>
+        <div id="headerDiv">
+            <h1 id="infoHeader">search movie by name</h1>
+        </div>
+        <div id="infoDiv"></div>
+        <section id="homePageInfo">
+        </section>
+        <div id="searchWithNameDiv">
+            <h1 id="searchByNameh1">search a movie by it's name</h1>
+            <input id="searchByNameInput" type="text"><br>
+            <button id="searchNameBtn" onclick="searchWithName()">search by name</button>
+        </div>
+        <section id="oneMoviesDisplaySec">
+        </section>
+    </main>
+    <footer>
+        <nav id="FotterNav1">
+            <ul>
+                <li class="Bottomnav1"><span>our instagram: </span><a href="https://www.instagram.com"
+                    target="_blank"><img class="Footer1Img" src="../images/instagramLogo.png" height="35px"
+                        width="35px"> </a> </li>
+            <li class="Bottomnav1"><span>Yonatan Tagania ©: </span> <a href="https://github.com/YonatanTagania"
+                    target="_blank"><img class="Footer1Img" src="../images/GitLogo.jpg" alt="Git" height="45px" width="45px"> </a> </li>
+            <li class="Bottomnav1"> <span>facebook: </span> <a href="http://facebook.com" target="_blank"><img
+                        src="../images/facebookLogo.png" alt="Email" height="35px" width="35px"> </a> </li>
+            <li class="Bottomnav1"><span>UP: </span> <a href="#"><img class="Footer1Img" src="../images/UpArrow.png" alt="UpArrow"
+                        height="35px" width="35px"> </a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="../Js/nameSearch.js"></script>
+</body>
+
+</html>
