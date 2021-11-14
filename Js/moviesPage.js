@@ -191,7 +191,6 @@ function deleteWithId(id) {
         });
 }
 
-
 function getMovieByID(id) {
     getApiInfo(`https://moviesmern.herokuapp.com/movies/movie/${id}`)
         .then((res) => { displaySingleOnScreen(res.data) })
